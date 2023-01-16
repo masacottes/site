@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/LandingPage/css/variables.css">
+  <link rel="stylesheet" href="/LandingPage/css/elements.css">
+  <link rel="stylesheet" href="/LandingPage/css/classes.css">
+  <link rel="stylesheet" href="/LandingPage/css/menu.css">
+  <link rel="stylesheet" href="/LandingPage/css/style.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">MASACOTTES</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Início</a></li>
+          <li><a href="#grid-one">Coisas nas quais tenho orgulho</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#grid-two">Esperiência profissional?</a></li>
+          <li><a href="#pricing">Tabela</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Olá, você está na minha primeira LandingPage</h2>
+        <p>Aqui, eu aprendi a ter uma ideia de como funciona HTML, sua estrutura, sendo mais específico, e como funciona
+          o CSS também.</p>
+      </div>
+      <div class="intro-img">
+        <img src="/LandingPage/img/undraw_static_assets_rpm6.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Meu nome é Diogo Paes Masacottes</h2>
+      <p>Eu sou formado em Eletrotécnica no IFMS que ama astronomia e tem paixão por ilustrações. Já trabalhei em uma
+        Gráfica Rápida como Designer, e fui garçom, nos tempos livres gosto de jogar Valorant.</p>
+      <p>Atualmente, estou estudando JavaScript de um Curso FullStack, ganhei de um amigo, e quero melhorar minhas
+        competências profissionais</p>
+      <p>Tenho um violino, já toquei bateria no início da minha adolescência, e acredito que estou progredindo no meu
+        inglês, ando vendo filmes com legenda em inglês</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Coisas nas quais tenho orgulho</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Maratona de Inovação FBJC</h3>
+          <p>2º Lugar na Trilha Viva Rio (Social) da Maratona de Inovação da Feira Brasileira de Jovens Cientistas. - 96
+            (horas) FBJC</p>
+        </article>
+        <article>
+          <h3>MOBFOG 2022</h3>
+          <p>Eu fui ao Rio de Janeiro participar de uma Amostra Brasileira de Foguetes, e nessa amostra alcançamos 126m
+            de alcançe com nosso foguete.</p>
+        </article>
+        <article>
+          <h3>Sonhador</h3>
+          <p>No momento, eu ainda sem norte, mas há coisas que não posso perder, eu ainda quero conquistar uma vaga no
+            exterior.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Algumas fotos que gosto</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20220717_160305.jpg">
+        </div>
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20220730_164020.jpg">
+        </div>
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20221031_224753.jpg">
+        </div>
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20221006_111244.jpg">
+        </div>
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20221024_171854.jpg">
+        </div>
+        <div class="gallery-img">
+          <img src="/LandingPage/img/20221027_103859.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Esperiência profissional?</h2>
+      <p class="grid-description">Cara, já trabalhei nisso aí</p>
+
+      <div class="grid">
+        <article>
+          <h3>First Job</h3>
+          <p>Meu primeiro emprego, fui numa gráfica rápida, eu tinha 16 anos e começei a trabalhar lá em 2020. Eu
+            aprendi a conversar melhor lá
+            e tive meu primeiro contato com CorelDRAW, eu fazia muita formatação de computador e ganhar em cima, meu
+            chefe era muito bom e gentil
+            , sempre me auxíliava e entendia das coisas quando eu precisava conversar.
+          </p>
+        </article>
+        <article>
+          <h3>Segundo emprego</h3>
+          <p>Eu 2021, no começo do segundo semestre, eu arranjei um free de garçom num bom restaurante aqui da cidade,
+            fiquei 8 meses por lá, boa parte das
+            pessoas eram gentis e o dono de lá era gente boa, tinha uma personalidade dirente, mais extravagante do que
+            meu primeiro chefe, mas era tranquilo
+            , lá consegui fazer uma boa grana e pagar minha carteira de motorista, saí assim que voltou as aulas
+            presenciais, queria focar mais no IF, era meu último ano e
+            eu já tinha feito 18 anos.
+          </p>
+        </article>
+        <article>
+          <h3>Estágio 🤪</h3>
+          <p>Essa parte aqui foi tensa, comecei ainda enquanto trabalhava como garçom, ent era foda, eu tava querendo
+            cumprir minhas horas, depois
+            de muito esforço teve alguém que me aceitou como estágiário e ainda me pagaram pra isso kkkkkkkkkkk, fiquei
+            muito feliz, mas cansei muito,
+            era das 13h às 00h até estar parado, de manhã nem ia nas aulas quase, como era EaD, quase que tavaca o Fds.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Bom, sei não</h2>
+      <p>Fica com uma tabela aí, só de brinks</p>
+      <p>eu quero compartilhar nada n</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela bacana</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Bom, é isso aí 😀</h2>
+        <p>Caso tenha ficado com alguma dúvida, toma um forms que não redireciona a lugar nenhum, ou converse com o
+          Milton</p>
+      </div>
+      <div class="milton">
+        <img src="/LandingPage/img/FWmfWvuWAAAN03m.jpg">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Caso tenha alguma dúvida, entre em contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Envia aqui</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.instagram.com/diogo_paes/">Feito com <span
+          class="heart">❤</span> por @diogo_paes</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
